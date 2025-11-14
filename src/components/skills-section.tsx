@@ -1,18 +1,59 @@
 import React from "react";
 import { Badge } from "@/components/ui/badge";
-import { Code, Database, Cloud, Cog, Server, PenTool, Wind } from "lucide-react";
+import {   Code,
+  Server,
+  Flame,
+  Leaf,
+  Package,
+  Boxes,
+  Database,
+  FileCode,
+  Palette,
+  Bold,
+  Wind,
+  Cloud,
+  Cog,
+  Wrench,
+  Layers,
+  Send,
+  Bug,
+  TestTube, } from "lucide-react";
 
 const skills = [
-  { name: "React", icon: <Code /> },
-  { name: "Next.js", icon: <Code /> },
-  { name: "Node.js", icon: <Server /> },
-  { name: "TypeScript", icon: <Code /> },
-  { name: "PostgreSQL", icon: <Database /> },
-  { name: "MongoDB", icon: <Database /> },
-  { name: "Docker", icon: <Cog /> },
-  { name: "Google Cloud", icon: <Cloud /> },
-  { name: "Tailwind CSS", icon: <Wind /> },
-  { name: "UI/UX Design", icon: <PenTool /> },
+    // Backend
+  { category: "Backend Development", name: "Java", icon: <Flame /> },
+  { category: "Backend Development", name: "Spring Boot", icon: <Leaf /> },
+  { category: "Backend Development", name: "Maven", icon: <Package /> },
+  { category: "Backend Development", name: "Hibernate", icon: <Boxes /> },
+  { category: "Backend Development", name: "Node.js", icon: <Server /> },
+  { category: "Backend Development", name: "Python", icon: <Code /> },
+  { category: "Backend Development", name: "MySQL", icon: <Database /> },
+  { category: "Backend Development", name: "MongoDB", icon: <Database /> },
+  { category: "Backend Development", name: "PostgreSQL", icon: <Database /> },
+
+  // Frontend
+  { category: "Frontend Development", name: "JavaScript", icon: <Code /> },
+  { category: "Frontend Development", name: "HTML", icon: <FileCode /> },
+  { category: "Frontend Development", name: "CSS", icon: <Palette /> },
+  { category: "Frontend Development", name: "SASS", icon: <Palette /> },
+  { category: "Frontend Development", name: "React", icon: <Code /> },
+  { category: "Frontend Development", name: "Next.js", icon: <Code /> },
+  { category: "Frontend Development", name: "Bootstrap", icon: <Bold /> },
+  { category: "Frontend Development", name: "Tailwind CSS", icon: <Wind /> },
+
+  // DevOps
+  { category: "DevOps & Infrastructure", name: "Docker", icon: <Cog /> },
+  { category: "DevOps & Infrastructure", name: "Jenkins", icon: <Wrench /> },
+  { category: "DevOps & Infrastructure", name: "AWS", icon: <Cloud /> },
+  { category: "DevOps & Infrastructure", name: "Terraform", icon: <Layers /> },
+  { category: "DevOps & Infrastructure", name: "Ansible", icon: <Wrench /> },
+  { category: "DevOps & Infrastructure", name: "Google Cloud", icon: <Cloud /> },
+
+  // QA & Testing
+  { category: "QA & Testing", name: "Postman", icon: <Send /> },
+  { category: "QA & Testing", name: "Debugging", icon: <Bug /> },
+  { category: "QA & Testing", name: "JUnit", icon: <TestTube /> },
+
 ];
 
 export function SkillsSection() {
