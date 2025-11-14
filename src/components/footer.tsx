@@ -4,7 +4,7 @@ export function Footer() {
     <footer className="border-t bg-card">
       <div className="container mx-auto py-6">
         <p className="text-center text-sm text-muted-foreground">
-          &copy; {currentYear} PortfolioPro. Todos los derechos reservados.
+          &copy; {currentYear} Alfredo Jesus Albornoz. Todos los derechos reservados.
         </p>
       </div>
     </footer>

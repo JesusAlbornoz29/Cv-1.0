@@ -51,7 +51,7 @@ export function HeroSection({ onCvDataExtracted }: HeroSectionProps) {
               <LinkIcon className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
               <Input
                 type="url"
-                placeholder="https://github.com/tu-usuario"
+                placeholder="https://linkedin.com/in/tu-usuario"
                 className="w-full pl-10"
                 value={url}
                 onChange={(e) => setUrl(e.target.value)}

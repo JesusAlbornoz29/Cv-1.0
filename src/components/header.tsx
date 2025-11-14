@@ -8,7 +8,7 @@ export function Header() {
         <div className="mr-4 flex items-center">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <Briefcase className="h-6 w-6 text-primary" />
-            <span className="font-bold font-headline text-lg">PortfolioPro</span>
+            <span className="font-bold font-headline text-lg">Alfredo Jesus Albornoz</span>
           </Link>
         </div>
         <nav className="hidden md:flex flex-1 items-center justify-end space-x-6 text-sm font-medium">
@@ -18,8 +18,8 @@ export function Header() {
           <Link href="#skills" className="text-foreground/60 transition-colors hover:text-foreground/80">
             Habilidades
           </Link>
-          <Link href="#experience" className="text-foreground/60 transition-colors hover:text-foreground/80">
-            Experiencia
+          <Link href="#education" className="text-foreground/60 transition-colors hover:text-foreground/80">
+            Educación
           </Link>
         </nav>
       </div>

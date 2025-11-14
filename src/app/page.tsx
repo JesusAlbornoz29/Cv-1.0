@@ -6,32 +6,25 @@ import { HeroSection } from "@/components/hero-section";
 import { CvEnhancer } from "@/components/cv-enhancer";
 import { ProjectsSection } from "@/components/projects-section";
 import { SkillsSection } from "@/components/skills-section";
-import { ExperienceSection } from "@/components/experience-section";
+import { EducationSection } from "@/components/education-section";
 import { Footer } from "@/components/footer";
 
 const DUMMY_CV_DATA = `
-Jane Doe
-Software Engineer
-jane.doe@email.com | 555-555-5555 | linkedin.com/in/janedoe
+Alfredo Jesus Albornoz
+Desarrollador de Software Junior
+alfredo.albornoz@email.com | 11-2233-4455 | linkedin.com/in/alfredoalbornoz
 
-Summary
-Highly motivated software engineer with 5 years of experience in full-stack web development. Proficient in JavaScript, React, and Node.js. Passionate about creating user-friendly applications and solving complex problems.
+Resumen
+Desarrollador de software recién graduado con una sólida base en desarrollo full-stack. Apasionado por la tecnología, con ganas de aplicar mis habilidades en JavaScript, React y Node.js para crear soluciones innovadoras y crecer profesionalmente en mi primer empleo.
 
-Experience
-Software Engineer, Tech Corp, Anytown, USA (2020 - Present)
-- Developed and maintained web applications using React and Node.js.
-- Worked with a team to build new features.
-- Improved application performance.
+Educación
+Desarrollador Web Full Stack
+Coderhouse, 2023
 
-Junior Developer, Web Solutions, Anytown, USA (2018 - 2020)
-- Assisted in the development of websites.
-- Learned about web development best practices.
+Bachiller en Ciencias de la Computación
+Universidad de Buenos Aires, 2022
 
-Education
-Bachelor of Science in Computer Science
-University of Anytown, 2018
-
-Skills
+Habilidades
 - JavaScript, HTML, CSS
 - React, Node.js, Express
 - SQL, MongoDB
@@ -54,7 +47,7 @@ export default function Home() {
           {cvData && <CvEnhancer cvData={cvData} onCvDataChange={setCvData} />}
           <ProjectsSection />
           <SkillsSection />
-          <ExperienceSection />
+          <EducationSection />
         </div>
       </main>
       <Footer />

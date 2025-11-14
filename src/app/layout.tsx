@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'PortfolioPro',
-  description: 'Your professional portfolio, enhanced by AI.',
+  title: 'Alfredo Jesus Albornoz',
+  description: 'Tu portafolio profesional, mejorado por IA.',
 };
 
 export default function RootLayout({
