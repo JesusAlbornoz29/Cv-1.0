@@ -2,29 +2,18 @@
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { User, Mail, Phone, Linkedin } from "lucide-react";
 
-export function CvInfo() {
+export function ContactSection() {
   return (
-    <section id="about-me" className="space-y-8">
-      <div className="text-center">
-        <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl">Sobre Mí</h2>
+    <section id="contact">
+      <div className="text-center mb-8">
+        <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl">Contacto</h2>
         <p className="mx-auto max-w-[700px] text-muted-foreground md:text-lg">
-          Un resumen de mi perfil profesional y datos de contacto.
+          Ponte en contacto conmigo.
         </p>
       </div>
-      <div className="grid md:grid-cols-2 gap-8 items-start">
-        <Card>
+       <Card className="max-w-3xl mx-auto">
             <CardHeader>
-                <CardTitle>Resumen</CardTitle>
-            </CardHeader>
-            <CardContent>
-                <p className="text-muted-foreground">
-                Desarrollador de software recién graduado con una sólida base en desarrollo full-stack. Apasionado por la tecnología, con ganas de aplicar mis habilidades en JavaScript, React y Node.js para crear soluciones innovadoras y crecer profesionalmente en mi primer empleo.
-                </p>
-            </CardContent>
-        </Card>
-        <Card>
-            <CardHeader>
-                <CardTitle>Contacto</CardTitle>
+                <CardTitle>Información de Contacto</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
                 <div className="flex items-center gap-4">
@@ -49,7 +38,6 @@ export function CvInfo() {
                 </div>
             </CardContent>
         </Card>
-      </div>
     </section>
   )
 }

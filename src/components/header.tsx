@@ -21,6 +21,9 @@ export function Header() {
           <Link href="#education" className="text-foreground/60 transition-colors hover:text-foreground/80">
             Educación
           </Link>
+          <Link href="#contact" className="text-foreground/60 transition-colors hover:text-foreground/80">
+            Contacto
+          </Link>
         </nav>
       </div>
     </header>
