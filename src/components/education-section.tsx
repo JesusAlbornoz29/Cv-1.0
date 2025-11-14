@@ -38,7 +38,7 @@ const diplomas = [
     {
     title: "Desarrollador de Software - Digital House",
     institution: "Digital House - Argentina",
-    year: "2016-2020",
+    year: "2022-2023",
     description: "Cambiar",
     imageUrl: "/img/DiplomaProfesionalDeveloper.png",
   },
