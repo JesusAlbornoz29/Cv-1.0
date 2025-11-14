@@ -7,20 +7,50 @@ import Image from "next/image";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 const diplomas = [
+       {
+    title: "Iniciacion al desarrollo con IA ",
+    institution: "Big School - Brais Moure",
+    year: "2025",
+    description: "Cambiar",
+    imageUrl: "/img/desarrollo con ia.png",
+  },
+      {
+    title: "Desarrollador de Software enfasis Backend - UTEC ",
+    institution: "Universidad Tecnologica del Uruguay - UTEC",
+    year: "2024-2025",
+    description: "Cambiar",
+    imageUrl: "/img/DSBackendUTEC.jpeg",
+  },
+     {
+    title: "Desarrollador de Software enfasis Backend - Digital House ",
+    institution: "Digital House - Argentina",
+    year: "2024-2025",
+    description: "Cambiar",
+    imageUrl: "/img/DiplomaEspecializacionBackend.png",
+  },  
   {
     title: "Desarrollador Web Full Stack",
-    institution: "Coderhouse",
-    year: "2023",
+    institution: "Universidad Tecnologica del Uruguay - UTEC",
+    year: "2022-2023",
     description: "Programa intensivo que cubre las tecnologías front-end y back-end más demandadas, incluyendo React, Node.js, y bases de datos SQL y NoSQL.",
-    imageUrl: "https://picsum.photos/seed/diploma1/800/600",
+    imageUrl: "/img/Desarrollo de software UTEC.jpeg",
+  },
+    {
+    title: "Desarrollador de Software - Digital House",
+    institution: "Digital House - Argentina",
+    year: "2016-2020",
+    description: "Cambiar",
+    imageUrl: "/img/DiplomaProfesionalDeveloper.png",
   },
   {
-    title: "Bachiller en Ciencias de la Computación",
-    institution: "Universidad de Buenos Aires",
-    year: "2022",
+    title: "Bachiller en Tecnologico en Informatica",
+    institution: "Instituto Tecnologico Superior Arias Balparda",
+    year: "2016-2020",
     description: "Formación académica completa en los fundamentos de la informática, algoritmos, estructuras de datos y paradigmas de programación.",
-    imageUrl: "https://picsum.photos/seed/diploma2/800/600",
+    imageUrl: "/img/TituloBachiller.jpg",
   },
+  
+  
 ];
 
 export function EducationSection() {
