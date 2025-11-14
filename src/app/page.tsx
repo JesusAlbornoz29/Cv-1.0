@@ -6,7 +6,6 @@ import { ProjectsSection } from "@/components/projects-section";
 import { SkillsSection } from "@/components/skills-section";
 import { EducationSection } from "@/components/education-section";
 import { Footer } from "@/components/footer";
-import { CvSummary } from "@/components/cv-summary";
 import { ContactSection } from "@/components/contact-section";
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
       <main className="flex-1">
         <HeroSection />
         <div className="container mx-auto px-4 py-16 md:py-24 space-y-16 md:space-y-24">
-          <CvSummary />
           <ProjectsSection />
           <SkillsSection />
           <EducationSection />
