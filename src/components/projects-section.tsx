@@ -32,11 +32,11 @@ const projects = [
     codeUrl: "#",
   },
   {
-    title: "Dashboard de Datos",
-    description: "Un panel de visualización de datos que muestra las tendencias del mercado con gráficos y tablas interactivas.",
+    title: "Rediseño de CV Interactivo",
+    description: "Desarrollé un CV dinámico a partir de un modelo estático en HTML y CSS. Utilicé React para implementar componentes interactivos y mejorar la experiencia del usuario, facilitando la edición y actualización de información de manera eficiente.",
     image: PlaceHolderImages[4],
-    liveUrl: "#",
-    codeUrl: "#",
+    liveUrl: "https://cvbasico.netlify.app",
+    codeUrl: "https://github.com/JesusAlbornoz29/CV",
   },
 ];
 
