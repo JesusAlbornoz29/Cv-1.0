@@ -22,18 +22,18 @@ export function ContactSection() {
                 </div>
                  <div className="flex items-center gap-4">
                     <Mail className="h-5 w-5 text-primary" />
-                    <a href="mailto:alfredo.albornoz@email.com" className="hover:underline">
-                        alfredo.albornoz@email.com
+                    <a href="mailto:alfredojesus.albornoz@gmail.com" className="hover:underline">
+                        alfredojesus.albornoz@gmail.com
                     </a>
                 </div>
                 <div className="flex items-center gap-4">
                     <Phone className="h-5 w-5 text-primary" />
-                    <span>11-2233-4455</span>
+                    <span>Uruguay (+598) 99-119-628</span>
                 </div>
                 <div className="flex items-center gap-4">
                     <Linkedin className="h-5 w-5 text-primary" />
-                    <a href="https://linkedin.com/in/alfredoalbornoz" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                        linkedin.com/in/alfredoalbornoz
+                    <a href="https://www.linkedin.com/in/alfredojalbornoz" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                        linkedin.com/in/alfredojalbornoz
                     </a>
                 </div>
             </CardContent>
