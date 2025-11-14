@@ -10,18 +10,18 @@ export function HeroSection() {
       <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center px-4 md:px-6">
         <div className="space-y-4 text-center md:text-left">
            <h1 className="text-4xl font-headline font-bold tracking-tighter sm:text-5xl md:text-6xl text-primary">
-            Alfredo Jesus Albornoz
+            Alfredo Jesus Albornoz Manzanares
           </h1>
           <p className="text-2xl font-medium text-foreground">
-            Desarrollador de Software
+            Desarrollador de Software | Universidad Tecnologica del Uruguay (UTEC)
           </p>
           <p className="max-w-xl text-muted-foreground md:text-lg">
-            Desarrollador de software recién graduado con una sólida base en desarrollo full-stack. Apasionado por la tecnología y con ganas de aplicar mis habilidades para crear soluciones innovadoras.
+            Profesional con más de 9 años de experiencia liderando áreas de servicio técnico y soporte IT, especializado en la resolución de problemas y la mejora de procesos. Tras formarme como desarrollador, estoy impulsando mi transición hacia el desarrollo de software, uniendo mi experiencia técnica y de gestión con la creación de soluciones completas y funcionales orientadas al negocio y al usuario.
           </p>
         </div>
         <div className="relative flex justify-center items-center">
             <Avatar className="w-64 h-64 border-4 border-primary shadow-lg">
-                <AvatarImage src="https://picsum.photos/seed/profile/400/400"  data-ai-hint="profile picture" alt="Alfredo Jesus Albornoz" />
+                <AvatarImage src="/img/perfil2.jfif"  data-ai-hint="profile picture" alt="Alfredo Jesus Albornoz" />
                 <AvatarFallback>AJA</AvatarFallback>
             </Avatar>
         </div>
