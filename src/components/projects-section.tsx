@@ -1,6 +1,6 @@
 import { ProjectCard } from "@/components/project-card";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import Image from "../../public/img/SistemaDeTurnos.png";
+
 
 const projects = [
     {
