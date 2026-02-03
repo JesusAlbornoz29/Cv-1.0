@@ -3,25 +3,25 @@
     {
       "id": "project-turnos",
       "description": "Sistema de gestión de turnos médicos.",
-      "imageUrl": "https://images.unsplash.com/photo-1505751172107-129cc6290747?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwYXBwb2ludG1lbnR8ZW58MHx8fHwxNzYzMTM3MjkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1505751172107-129cc6290747?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "imageHint": "medical appointment"
     },
     {
       "id": "project-cv",
       "description": "Rediseño de CV interactivo con React.",
-      "imageUrl": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyZXN1bWUlMjBkZXNpZ258ZW58MHx8fHwxNzYzMTM3MjkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "imageHint": "resume design"
     },
     {
       "id": "project-poke",
       "description": "Consumo de PokeAPI para visualización de Pokémon.",
-      "imageUrl": "https://images.unsplash.com/photo-1613771404721-1f92d799e49f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb2tlbW9ufGVufDB8fHx8MTc2MzEzNzI5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1613771404721-1f92d799e49f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "imageHint": "pokemon"
     },
     {
       "id": "hero-bg",
       "description": "Fondo tecnológico abstracto de código.",
-      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29kZXxlbnwwfHx8fDE3NjMxMzcyOTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "imageHint": "technology code"
     }
   ]

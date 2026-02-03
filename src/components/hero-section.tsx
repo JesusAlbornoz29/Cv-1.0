@@ -16,11 +16,11 @@ export function HeroSection() {
             src={heroBg.imageUrl}
             alt="Technology Background"
             fill
-            className="object-cover opacity-20"
+            className="object-cover opacity-15"
             priority
             data-ai-hint={heroBg.imageHint}
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/80 to-background"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background"></div>
         </div>
       )}
 
@@ -30,17 +30,20 @@ export function HeroSection() {
             Alfredo Jesus Albornoz Manzanares
           </h1>
           <p className="text-2xl font-medium text-foreground">
-            Desarrollador de Software | Universidad Tecnológica del Uruguay (UTEC)
+            Desarrollador de Software | UTEC
           </p>
-          <p className="max-w-xl text-muted-foreground md:text-lg">
-            Profesional con más de 9 años de experiencia liderando áreas de servicio técnico y soporte IT, especializado en la resolución de problemas y la mejora de procesos. Tras formarme como desarrollador, estoy impulsando mi transición hacia el desarrollo de software, uniendo mi experiencia técnica y de gestión con la creación de soluciones completas y funcionales orientadas al negocio y al usuario.
+          <p className="max-w-xl text-muted-foreground md:text-lg leading-relaxed">
+            Profesional con más de 9 años de experiencia liderando áreas de soporte IT, ahora transformando esa experiencia técnica en soluciones de software sólidas. Especializado en Java, Spring Boot y tecnologías modernas de IA para crear productos orientados al negocio.
           </p>
         </div>
         <div className="relative flex justify-center items-center">
-            <Avatar className="w-64 h-64 border-4 border-primary shadow-xl bg-card">
-                <AvatarImage src="/img/perfil2.jfif" data-ai-hint="profile picture" alt="Alfredo Jesus Albornoz" />
-                <AvatarFallback>AJA</AvatarFallback>
-            </Avatar>
+            <div className="relative">
+              <div className="absolute -inset-1 bg-gradient-to-r from-primary to-accent rounded-full blur opacity-25"></div>
+              <Avatar className="w-64 h-64 border-4 border-background shadow-2xl relative">
+                  <AvatarImage src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=640&h=640" data-ai-hint="profile picture" alt="Alfredo Jesus Albornoz" />
+                  <AvatarFallback className="text-4xl">AJA</AvatarFallback>
+              </Avatar>
+            </div>
         </div>
       </div>
     </section>
