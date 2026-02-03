@@ -16,10 +16,11 @@ export function HeroSection() {
             src={heroBg.imageUrl}
             alt="Technology Background"
             fill
-            className="object-cover opacity-10"
+            className="object-cover opacity-20"
+            priority
             data-ai-hint={heroBg.imageHint}
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/80 to-background"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/80 to-background"></div>
         </div>
       )}
 
