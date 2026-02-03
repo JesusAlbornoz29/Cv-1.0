@@ -3,19 +3,19 @@
     {
       "id": "project-turnos",
       "description": "Sistema de gestión de turnos médicos.",
-      "imageUrl": "https://images.unsplash.com/photo-1505751172107-129cc6290747?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "imageUrl": "/img/ImgSistemaTurnos.png",
       "imageHint": "medical appointment"
     },
     {
       "id": "project-cv",
       "description": "Rediseño de CV interactivo con React.",
-      "imageUrl": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "imageUrl": "/img/ImgCv.png",
       "imageHint": "resume design"
     },
     {
       "id": "project-poke",
       "description": "Consumo de PokeAPI para visualización de Pokémon.",
-      "imageUrl": "https://images.unsplash.com/photo-1613771404721-1f92d799e49f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "imageUrl": "/img/ImgPoke.png",
       "imageHint": "pokemon"
     },
     {
