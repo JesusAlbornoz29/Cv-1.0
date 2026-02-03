@@ -5,22 +5,15 @@ import {
   Server,
   Flame,
   Leaf,
-  Package,
-  Boxes,
   Database,
   FileCode,
   Palette,
-  Bold,
   Wind,
   Cloud,
   Cog,
-  Wrench,
-  Layers,
   Send,
-  Bug,
   TestTube,
-  Brain,
-  Zap
+  Brain
 } from "lucide-react";
 
 const skills = [

@@ -9,18 +9,18 @@ export function HeroSection() {
 
   return (
     <section className="relative w-full py-20 md:py-32 overflow-hidden border-b">
-      {/* Background Image with Overlay */}
+      {/* Background Image with Overlay - Opacity increased to 25% for better visibility */}
       {heroBg && (
         <div className="absolute inset-0 z-0">
           <Image
             src={heroBg.imageUrl}
             alt="Technology Background"
             fill
-            className="object-cover opacity-15"
+            className="object-cover opacity-25"
             priority
             data-ai-hint={heroBg.imageHint}
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/50 to-background"></div>
         </div>
       )}
 
