@@ -27,11 +27,11 @@ const projects = [
 
 export function ProjectsSection() {
   return (
-    <section id="projects" className="space-y-8">
-      <div className="text-center">
-        <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl">Proyectos Destacados</h2>
-        <p className="mx-auto max-w-[700px] text-muted-foreground md:text-lg">
-          Una selección de mis trabajos recientes.
+    <section id="projects" className="space-y-12">
+      <div className="text-center space-y-4">
+        <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl text-slate-900">Proyectos Destacados</h2>
+        <p className="mx-auto max-w-[700px] text-slate-600 md:text-lg">
+          Una selección de mis trabajos recientes que demuestran mi capacidad técnica y resolución de problemas.
         </p>
       </div>
       <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-8">
