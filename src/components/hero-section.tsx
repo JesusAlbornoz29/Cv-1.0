@@ -16,11 +16,11 @@ export function HeroSection() {
             src={heroBg.imageUrl}
             alt="Technology Background"
             fill
-            className="object-cover opacity-10"
+            className="object-cover opacity-30"
             priority
             data-ai-hint={heroBg.imageHint}
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/60 to-transparent"></div>
         </div>
       )}
 
@@ -34,8 +34,8 @@ export function HeroSection() {
               Desarrollador de Software | UTEC
             </p>
           </div>
-          <p className="max-w-xl text-slate-600 md:text-lg leading-relaxed">
-            Profesional con más de 9 años de experiencia liderando áreas de soporte IT, ahora transformando esa experiencia técnica en soluciones de software sólidas. Especializado en Java, Spring Boot y tecnologías modernas de IA para crear productos orientados al negocio.
+          <p className="max-w-xl text-slate-700 md:text-lg leading-relaxed font-medium">
+            Profesional con más de 9 años de experiencia liderando áreas de soporte IT, ahora transformando mi trayectoria técnica en el desarrollo de software. Tras años de liderazgo y resolución de problemas complejos, busco mi primera oportunidad laboral como Desarrollador de Software para aplicar mis conocimientos en proyectos innovadores.
           </p>
         </div>
         <div className="relative flex justify-center items-center">
