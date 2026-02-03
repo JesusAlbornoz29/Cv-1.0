@@ -11,7 +11,7 @@ const diplomas = [
     institution: "Universidad de la República (UDELAR)",
     year: "En curso",
     description: "Formación de grado enfocada en ciencias de la computación, algoritmos, estructuras de datos y desarrollo de software avanzado.",
-    imageUrl: "https://images.unsplash.com/photo-1562774053-701939374585?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    imageUrl: "/img/Fing.jpg",
     isCurrent: true,
   },
   {
