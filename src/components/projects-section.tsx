@@ -3,33 +3,26 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const projects = [
   {
-    title: "Gestor de Tareas",
-    description: "Una aplicación web de gestión de tareas con un diseño moderno y funcionalidades intuitivas para organizar tu trabajo diario.",
+    title: "Sistema de Turnos",
+    description: "Una aplicación web de gestión de turnos que permite a los usuarios solicitar citas médicas rápidamente, generando un número de cita único al instante y gestionando el llamado mediante el cambio de estados de los tickets de los pacientes.",
     image: PlaceHolderImages[0],
-    liveUrl: "#",
-    codeUrl: "#",
+    liveUrl: "https://sistemadeturno.netlify.app",
+    codeUrl: "https://github.com/JesusAlbornoz29/SistemaDeTurnos",
   },
   {
-    title: "Rastreador de Fitness",
-    description: "Una aplicación móvil para seguir tus metas de fitness, registrar entrenamientos y visualizar tu progreso a lo largo del tiempo.",
+    title: "Rediseño de CV Interactivo",
+    description: "Desarrollé un CV dinámico a partir de un modelo estático en HTML y CSS. Utilicé React para implementar componentes interactivos y mejorar la experiencia del usuario, facilitando la edición y actualización de información de manera eficiente.",
     image: PlaceHolderImages[1],
-    liveUrl: "#",
-    codeUrl: "#",
-  },
-    {
-    title: "Plataforma E-commerce",
-    description: "Una plataforma de comercio electrónico construida para un negocio local, con un catálogo de productos, carrito de compras y pasarela de pago.",
-    image: PlaceHolderImages[2],
-    liveUrl: "#",
-    codeUrl: "#",
+    liveUrl: "https://cvbasico.netlify.app",
+    codeUrl: "https://github.com/JesusAlbornoz29/CV",
   },
   {
-    title: "Dashboard de Datos",
-    description: "Un panel de visualización de datos que muestra las tendencias del mercado con gráficos y tablas interactivas.",
-    image: PlaceHolderImages[3],
-    liveUrl: "#",
-    codeUrl: "#",
-  },
+    title: "Poke api",
+    description: "Uno de mis primeros proyectos consumiendo API, donde visualizo información de Pokémon de manera dinámica.",
+    image: PlaceHolderImages[2],
+    liveUrl: "https://pockedexapi2025.netlify.app", // Corregido según formato común de Netlify
+    codeUrl: "https://github.com/JesusAlbornoz29/PokemonApi",
+  }
 ];
 
 export function ProjectsSection() {
