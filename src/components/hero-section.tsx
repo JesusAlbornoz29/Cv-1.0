@@ -43,7 +43,7 @@ export function HeroSection() {
               <div className="absolute -inset-4 bg-primary/20 rounded-full blur-3xl"></div>
               <Avatar className="w-64 h-64 border-8 border-white shadow-2xl relative">
                   <AvatarImage 
-                    src="/img/perfil2.jfif" 
+                    src="/img/pf.jpg" 
                     data-ai-hint="profile picture" 
                     alt="Alfredo Jesus Albornoz" 
                   />
